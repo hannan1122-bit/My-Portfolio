@@ -17,16 +17,22 @@ export default function Introduction() {
         <div className="grid md:grid-cols-2 gap-10 items-start">
           {/* Left Side - Name & Tagline */}
           <div>
-            <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-2">Hi, I'm</h2>
-            <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-4">Abdul Hannan Asif</h2>
+            <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-2">
+              Hi, I&apos;m
+            </h2>
+            <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-4">
+              Abdul Hannan Asif
+            </h2>
             <p className="text-lg sm:text-xl md:text-2xl text-gray-300">
-              Data Science Enthusiast | Innovator | Explorer of Ideas & Places
+              Data Science Enthusiast | Innovator | Explorer of Ideas &amp; Places
             </p>
           </div>
 
           {/* Right Side - Education */}
-          <div className="md:mt-12 lg:mt-16"> {/* more lower on medium+ screens */}
-            <h3 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-2">Education</h3>
+          <div className="md:mt-12 lg:mt-16">
+            <h3 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-2">
+              Education
+            </h3>
             <p className="text-lg sm:text-xl md:text-2xl text-gray-300">
               BSCS Student (Final Year) | University Of Central Punjab
             </p>
@@ -38,7 +44,9 @@ export default function Introduction() {
 
         {/* Skills Section */}
         <div className="mt-16 text-center">
-          <h3 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-6">Skills</h3>
+          <h3 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-6">
+            Skills
+          </h3>
           <div className="flex flex-wrap justify-center gap-6">
             {[
               { icon: <FaPython size={24} color="#3776AB" />, name: "Python" },
@@ -64,9 +72,18 @@ export default function Introduction() {
 
         {/* About Me Section */}
         <div className="mt-16 max-w-3xl mx-auto">
-          <h3 className="text-center text-3xl sm:text-4xl md:text-5xl font-semibold mb-2">About Me</h3>
+          <h3 className="text-center text-3xl sm:text-4xl md:text-5xl font-semibold mb-2">
+            About Me
+          </h3>
           <p className="text-base sm:text-lg md:text-2xl text-center text-gray-300 leading-relaxed">
-            I am a dedicated and passionate learner in the field of Data Science, constantly striving to expand my knowledge and skills. My goal is to contribute to the development of innovative solutions and unlock new, useful features that can make a real impact in this field. Alongside my professional interests, I have a deep love for tourism and exploration, having traveled extensively across the northern regions of Pakistan. These experiences have enriched my perspective, inspiring creativity and curiosity that I bring into my work.
+            I am a dedicated and passionate learner in the field of Data Science,
+            constantly striving to expand my knowledge and skills. My goal is to
+            contribute to the development of innovative solutions and unlock new,
+            useful features that can make a real impact in this field. Alongside
+            my professional interests, I have a deep love for tourism and
+            exploration, having traveled extensively across the northern regions
+            of Pakistan. These experiences have enriched my perspective,
+            inspiring creativity and curiosity that I bring into my work.
           </p>
         </div>
       </div>
