@@ -11,7 +11,7 @@ export default function Projects() {
         title: "Heart Stroke Prediction",
         description:
           "Built a predictive system using a Kaggle dataset for heart stroke risk assessment. Performed data preprocessing and Exploratory Data Analysis (EDA), trained KNN and XGBoost models to classify whether a patient is at risk of stroke. Deployed the model live using FastAPI with a React-based frontend.",
-        link: ""
+        link: "https://heart-strock-frontend.vercel.app"
       },
       {
         title: "Person Classification Project",
